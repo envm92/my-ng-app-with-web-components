@@ -6,9 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  myTitle = 'project-angular';
-  open = false;
-
   controlsDemo0 = [
     { label: 'Label', icon: 'favorite' },
     { label: 'Label', img: 'https://via.placeholder.com/150' },
