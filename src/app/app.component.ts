@@ -14,7 +14,7 @@ export class AppComponent {
     { label: 'Label' }];
   controlsDemo1 = [
     { label: 'Label' },
-    { label: 'Label' },
+    { label: 'Label', selected: true },
     { label: 'Label' }];
   controlsDemo2 = [
     { label: 'Label' },

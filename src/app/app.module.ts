@@ -5,6 +5,7 @@ import { AppComponent } from './app.component';
 
 // Web Components
 import 'segmented-controls/segmented-controls';
+import '@material/mwc-icon';
 
 @NgModule({
   declarations: [
