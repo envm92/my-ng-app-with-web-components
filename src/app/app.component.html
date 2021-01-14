@@ -1,36 +1,36 @@
 <div id="container">
   <segmented-controls>
     <segmented-controls-item>
-      Label
+      <span>Label</span>
     </segmented-controls-item>
     <segmented-controls-item>
-      Label
+      <span>Label</span>
     </segmented-controls-item>
     <segmented-controls-item>
-      Label
+      <span>Label</span>
     </segmented-controls-item>
   </segmented-controls>
   <segmented-controls>
     <segmented-controls-item *ngFor="let control of controlsDemo0">
       <img *ngIf="control.img" src="{{control.img}}" name="graphic" />
       <mwc-icon *ngIf="control.icon" name="graphic">{{control.icon}}</mwc-icon>
-      {{control.label}}
+      <span>{{control.label}}</span>
     </segmented-controls-item>
   </segmented-controls>
   <segmented-controls>
       <segmented-controls-item *ngFor="let control of controlsDemo1" [select]="control.selected">
-        {{control.label}}
+        <span>{{control.label}}</span>
       </segmented-controls-item>
     </segmented-controls>
   <segmented-controls>
     <segmented-controls-item *ngFor="let control of controlsDemo2">
-      {{control.label}}
+      <span>{{control.label}}</span>
     </segmented-controls-item>
   </segmented-controls>
   <segmented-controls>
       <segmented-controls-item *ngFor="let control of controlsDemo3">
         <mwc-icon *ngIf="control.icon" name="graphic">{{control.icon}}</mwc-icon>
-        {{control.label}}
+        <span>{{control.label}}</span>
       </segmented-controls-item>
     </segmented-controls>
 </div>
